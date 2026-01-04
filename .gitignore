@@ -1,0 +1,33 @@
+# Virtual environment
+venv/
+
+# Build artifacts
+build/
+*.dll
+*.lib
+*.pyd
+*.so
+*.dylib
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Large files
+*.gguf
+*.bin
+*.zip
+
+# Vendor submodules (too large)
+llama.cpp/
+llama-cpp-python/vendor/
+
+# Temp files
+*.log
+*.tmp
